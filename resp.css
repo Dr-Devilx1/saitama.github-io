@@ -1,0 +1,697 @@
+
+
+@media screen and (max-width: 768px) {
+
+
+
+
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+        gap: 3vw;
+        /* justify-content: flex-end; */
+        align-items: center;
+        list-style: none;
+        /* change menu aligment */
+        margin: 0 auto 0 2vw;
+        width: 100vw;
+
+
+    }
+    
+
+    .logo img {
+
+        height: 6vw;
+        width: auto;
+        margin: 0 0 0 0%;
+
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+    
+
+footer {
+    flex-direction: column;
+    text-align: center;
+}
+
+.ftr-1{
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80vw;
+
+}
+
+
+.ftr-icn img {
+    margin: 2%;
+}
+
+footer div {
+    padding: 3% 10%;
+}
+
+
+
+
+
+
+.ftr-logo {
+width: 30vw ;
+margin-bottom: 3%;
+}
+
+
+
+footer p{
+
+font-size: 3vw;
+}
+
+.ftr-1 h4{
+
+    font-size: 2vw;
+
+}
+
+.ftr-icn img {
+width: 5vw;
+margin: 2vw 2%;
+}
+
+.ftr-icn img:hover {
+
+transform: translateY(-0.5vw);
+scale: 1.03;
+transition: all 0.6s;
+}
+
+
+.ftr-2 ,.ftr-3{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+.ftr-3 div{
+
+    width: 25vw;
+    border-radius: 3vw;
+    padding: 3%;
+
+}
+
+.ftr-3 img{
+
+    width: 5vw;
+
+}
+
+footer label{
+
+font-size: 6vw;
+font-weight: 900;
+text-align: center;
+padding: 0 auto;
+margin: 0 auto;
+/* border-left: 0.1vw solid white; */
+
+}
+
+footer ul {
+list-style: none;
+padding: 2% 0%;
+
+}
+
+footer ul li {
+font-size: 4vw;
+margin: 3vw 0;
+display: flex;
+flex-direction: column;
+}
+
+footer ul li a {
+color: #fff;
+text-decoration: none;
+}
+
+footer ul li:hover {
+
+transform: translateY(-0.5vw);
+scale: 1.03;
+transition: all 0.6s;
+}
+
+footer li a:hover{
+color: blue;
+
+}
+
+/* ......................................................... GLOBAL.......................... */
+
+
+h2{
+
+    font-size: 5vw;
+    margin: -1% 0 -2% 0;
+    font-weight: 900;
+
+}
+
+
+h3{
+
+    font-size: 6vw;
+    font-weight: 900;
+
+}
+
+h4{
+
+    font-size: 3vw;
+
+}
+
+
+h5{
+
+    font-size: 4vw;
+
+}
+
+
+p{
+
+    font-size: 3vw;
+
+}
+
+
+
+
+
+/* ......................................................... SECTION 1.......................... */
+
+
+
+.sect1{
+
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+
+    padding: 0% 10% 0 10%;
+
+
+}
+
+.s1-img1{
+
+    width: 60vw;
+
+}
+
+
+.s1-d1{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 2vw;
+
+    width: 80vw;
+    text-align: center;
+
+
+
+}
+
+
+.s1-d1 h3{
+
+    color: white;
+
+}
+
+.s1-d1 p{
+
+    width: 100%;
+    color: rgba(255, 255, 255, 0.753);
+
+}
+
+
+
+.s1-d2{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+}
+
+
+
+
+
+
+.s1-d2 img{
+
+    width: 35%;
+
+}
+
+.s1-d2 img:hover{
+
+    scale: 1.1;
+
+}
+
+
+
+
+
+
+
+.sect2 img{
+
+
+    width: 70vw;
+
+}
+
+
+/* ..................................... SECTION 2 ..............................  */
+
+
+/* ..................................... SECTION 3 ..............................  */
+
+
+.sect3{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+    margin: 5% auto;
+
+}
+
+.sect3 img{
+
+    height: 5vw;
+
+}
+
+.sect3 img:hover{
+
+    scale: 1.1;
+    opacity: .5;
+
+}
+
+
+/* ..................................... SECTION 3 ..............................  */
+
+
+
+/* ..................................... SECTION 4 ..............................  */
+
+
+
+.sect4{
+
+
+    background: url(images/Jupiter\ space.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+    background-position-x: left;
+    height: 110vw;
+
+    display: flex;
+    
+
+}
+
+
+.sect4-d1{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+
+    margin: auto 0 auto 50%;
+}
+
+
+.s4-cd{
+
+    margin: 5% 0 0 10%;
+
+}
+
+.s4-cd h5{
+
+    margin: 0 0 5% 0;
+
+}
+
+.s4-cd ul{
+
+    margin: 5%;
+
+}
+
+.s4-cd ul li{
+
+    font-size: 3vw;
+    margin: 2% 0;
+
+}
+
+/* ..................................... SECTION 4 ..............................  */
+
+
+.wolf22{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    margin: -5% auto;
+
+}
+
+.cldd1{
+
+    width: 100vw;
+    margin: -10% auto;
+
+}
+
+
+
+/* ..................................... SECTION 0 ..............................  */
+
+
+
+
+/* ..................................... SECTION 0 ..............................  */
+
+.posabs{
+
+    position: absolute;
+    overflow: hidden;
+
+
+}
+
+
+.pasicn {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 1vw;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+    padding: 2% 1%;
+    border-radius: 1vw;
+    width: 5vw;
+    top: 3%;
+    right: 0%;
+
+    background: linear-gradient(to bottom, #FDC3FB 0% , #71C4EE 44%, #8D76FF 100%);
+
+
+}
+
+
+
+.pasicn img{
+
+    width: 2vw;
+
+}
+
+.pasicn img:hover{
+
+    scale: 1.1;
+
+}
+
+
+.ycrcle{
+
+    top: 23%;
+    width: 100vw;
+    z-index: -1;
+
+}
+
+.clod1{
+
+    width: 20vw;
+    top: 13%;
+    right: 0%;
+    z-index: 9;
+
+}
+
+
+.clod2{
+
+    width: 20vw;
+    top: 35%;
+    right: 0%;
+    z-index: 9;
+
+}
+
+
+.clod3{
+
+    width: 30vw;
+    top: 45%;
+    left: 0%;
+    z-index: 9;
+
+}
+
+.clod4{
+
+    width: 30vw;
+    top: 68%;
+    right: 0%;
+    z-index: 11;
+
+}
+
+
+.bplnt{
+
+    width: 120vw;
+    top: 50%;
+    left: -70%;
+    z-index: 9;
+
+
+}
+
+
+
+.ymoon{
+
+    width: 20vw;
+    top: 68.5%;
+    right: 10%;
+    z-index: 9;
+
+}
+
+.bmoon{
+
+    width: 20vw;
+    top: 75%;
+    left: 10%;
+    z-index: -1;  
+
+}
+
+
+
+.line1{
+
+    width: 25vw;
+    top: 41.5%;
+    left: 10%;
+    z-index: 2;
+
+}
+
+
+
+.line2{
+
+    width: 25vw;
+    top: 41.5%;
+    right: 10%;
+    z-index: 2;
+
+}
+
+.line3{
+
+    width: 25vw;
+    top: 44.5%;
+    left: 10%;
+    z-index: 2;
+
+}
+
+.line4{
+
+    width: 30vw;
+    top: 44.5%;
+    right: 8%;
+    z-index: 2;
+
+}
+
+
+
+.tp{
+
+    font-size: 3vw;
+    color: white;
+
+}
+
+.tp1{
+
+    top: 40.8%;
+    left: 10%;
+
+}
+
+.tp2{
+
+    top: 40.8%;
+    right: 10%;
+
+}
+
+.tp3{
+
+    top: 43.8%;
+    left: 10%;
+
+}
+
+
+.tp4{
+
+    top: 43.8%;
+    right: 8%;
+
+}
+
+
+
+.dp{
+
+    font-size: 2.5vw;
+    color: #FDC3FB;
+
+}
+
+
+.dp1{
+
+    top: 41.7%;
+    left: 10%;
+
+}
+
+.dp2{
+
+    top: 41.7%;
+    right: 10%;
+
+}
+
+.dp3{
+
+    top: 44.6%;
+    left: 10%;
+
+}
+
+
+.dp4{
+
+    top: 44.6%;
+    right: 8%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

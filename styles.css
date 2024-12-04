@@ -1,0 +1,1016 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+ 
+    color: white;
+
+    text-decoration: none;
+
+    transition: all 0.6s;
+
+
+}
+
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* background: url(images/Saitama.jpg); */
+    background: #2b2a2e;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+
+    overflow-x: hidden;
+
+}
+
+h2{
+
+    font-size: 4vw;
+    font-weight: 900;
+    animation: bounce 2s ease-in-out infinite;
+
+}
+
+
+h3{
+
+    font-size: 3vw;
+    font-weight: 900;
+
+}
+
+h4{
+
+    font-size: 1.5vw;
+
+}
+
+
+h5{
+
+    font-size: 2vw;
+
+}
+
+
+p{
+
+    font-size: 1.2vw;
+
+}
+
+
+
+main{
+    position: relative;
+
+}
+
+
+
+/* Header Styles */
+
+
+header{
+
+    overflow-x: hidden;
+    width: 100vw;
+    list-style-type: none;
+
+
+
+}
+
+
+
+
+.navbar {
+    background: transparent;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: auto;
+    padding: 3% 10% 2% 10%;
+    z-index: 2;
+    /* box-shadow: 0 4px 8px rgba(142, 142, 142, 0.4); */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Logo */
+.logo img {
+
+    height: 4vw;
+    animation: bounce 2s linear infinite;
+
+
+    /* text-decoration: none;
+    color: #f39c12;
+    font-size: 3vw;
+    font-weight: bold;
+
+    letter-spacing: 0.1vw; */
+}
+
+/* Hamburger Menu */
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+    gap: 0.5vh;
+    cursor: pointer;
+}
+
+.menu-icon span {
+    width: 6vw;
+    height: 0.5vh;
+    background: white;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+
+.menu-icon span:nth-child(1) {
+
+    width: 6vw;
+
+}
+
+
+.menu-icon span:nth-child(2) {
+
+    width: 5vw;
+    
+
+}
+
+.menu-icon span:nth-child(3) {
+
+    width: 6vw;
+
+}
+
+
+
+.menu-icon.open span:nth-child(1) {
+    transform: rotate(45deg) translate(0.5vw, 0.9vh);
+    background: black;
+    width: 6.5vw;
+
+}
+
+.menu-icon.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-icon.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(0.5vw, -0.9vh);
+    background: black;
+    width: 6.5vw;
+}
+
+/* Navigation Menu */
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    /* justify-content: flex-end; */
+    align-items: center;
+    list-style: none;
+    /* change menu aligment */
+    margin: 0 0% 0 auto;
+}
+
+.nav-menu li {
+    display: inline;
+    text-wrap: nowrap;
+    background-color: white;
+    padding: 1.5%;
+    border-radius: 1vw;
+}
+
+.nav-menu li:hover{
+
+    scale: 1.1;
+    background: linear-gradient(to bottom, #FDC3FB 0% , #71C4EE 44%, #8D76FF 100%);
+
+
+}
+
+
+.nav-menu a {
+    font-size: 1.3vw;
+    color: black;
+    /* text-shadow: 2px 4px 1px black;2 */
+    text-decoration: none;
+    padding: 1vw;
+    font-weight: 700;
+}
+
+.nav-menu a:hover {
+
+    scale: 1.2;
+    transition: all 0.6s;
+    
+}
+
+
+/* Action icons */
+
+
+/* Mobile Menu Overlay */
+.nav-menu-mobile {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 40vh;
+    background: #8885fc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transform: translate(0, -110%);
+    z-index: 1;
+    transition: all 0.5s ease;
+    padding: 20% 0 0 0;
+    scale: 1;
+
+    border-radius: 0vw 0vw 0px 20%;
+
+    overflow-x: hidden;
+
+    list-style: none;
+}
+
+.nav-menu-mobile.active {
+    opacity: 1;
+    transform: translateY(-7%);
+    scale: 1;
+}
+
+.nav-menu-mobile li {
+    margin: 2vh 0;
+}
+
+.nav-menu-mobile li:hover {
+
+    scale: 1.1;
+    /* color: #fee811 !important; */
+
+}
+
+.nav-menu-mobile a {
+    font-size: 5vw;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+/* .nav-menu-mobile a:hover{
+
+        color: black !important;
+
+} */
+
+
+/* ..................................... SECTION 0 ..............................  */
+
+
+.sect0{
+
+    background: url(images/sect0gb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top; 
+    height: 65vw;
+
+    overflow-x: hidden;
+    width: 100vw;
+
+  
+
+}
+
+.s0-d1{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    margin: 25% auto  0 auto;
+
+    
+
+}
+
+.s0-d1 h2{
+
+    color: white;
+    text-align: center;
+
+}
+
+.s0-d1 a img{
+
+    width: 17vw;
+
+}
+
+.s0-d1 a img:hover{
+
+    scale: 1.1;
+
+}
+
+
+/* ..................................... SECTION 0 ..............................  */
+
+
+
+
+.cldt1{
+
+    width: 100vw;
+    margin: -19% 0 0 0;
+
+}
+
+
+
+/* ..................................... SECTION 1 ..............................  */
+
+
+.sect1{
+
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+    padding: 0% 10% 0 10%;
+
+
+}
+
+.s1-img1{
+
+    width: 50vw;
+    animation: spiin 4s ease infinite;
+
+}
+
+
+.s1-d1{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 2vw;
+
+    width: 50vw;
+
+
+
+}
+
+
+.s1-d1 h3{
+
+    color: white;
+
+}
+
+.s1-d1 p{
+
+    width: 100%;
+    color: rgba(255, 255, 255, 0.753);
+
+}
+
+
+
+.s1-d2{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 5%;
+
+}
+
+
+
+
+
+
+.s1-d2 img{
+
+    width: 35%;
+
+}
+
+.s1-d2 img:hover{
+
+    scale: 1.1;
+
+}
+
+
+/* ..................................... SECTION 1 ..............................  */
+
+.sect2{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15vw;
+    margin: 15% auto 5% auto;
+    text-align: center;
+
+}
+
+.sect2 h3{
+
+    color: white;
+
+}
+
+
+.s2-h41{
+
+    color: #8885fc;
+    font-weight: normal;
+
+}
+
+.s2-h42{
+
+    color: rgba(255, 255, 255, 0.753);
+    font-weight: normal;
+    
+
+}
+
+
+
+
+
+
+.sect2 img{
+
+
+    width: 50vw;
+    animation: zooom 2s ease-in-out infinite;
+
+
+}
+
+
+/* ..................................... SECTION 2 ..............................  */
+
+
+/* ..................................... SECTION 3 ..............................  */
+
+
+.sect3{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+    margin: 5% auto;
+
+}
+
+.sect3 img{
+
+    height: 3vw;
+
+}
+
+.sect3 img:hover{
+
+    scale: 1.1;
+    opacity: .5;
+
+}
+
+
+/* ..................................... SECTION 3 ..............................  */
+
+
+
+/* ..................................... SECTION 4 ..............................  */
+
+
+
+.sect4{
+
+
+    background: url(images/Jupiter\ space.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+    background-position-x: left;
+    height: 80vw;
+
+    display: flex;
+    
+
+}
+
+
+.sect4-d1{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+
+    margin: auto 0 auto 50%;
+}
+
+
+.s4-cd{
+
+    margin: 5% 0 0 10%;
+
+}
+
+.s4-cd h5{
+
+    margin: 0 0 5% 0;
+
+}
+
+.s4-cd ul{
+
+    margin: 5%;
+
+}
+
+.s4-cd ul li{
+
+    font-size: 1.2vw;
+    margin: 2% 0;
+
+}
+
+/* ..................................... SECTION 4 ..............................  */
+
+
+.wolf22{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    margin: -10% auto;
+    animation: updwn 4s ease-in-out infinite;
+
+}
+
+.cldd1{
+
+    width: 100vw;
+    margin: -10% auto;
+    position: relative;
+    z-index: 2;
+
+}
+
+
+
+/* ..................................... SECTION 0 ..............................  */
+
+
+
+
+
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10% 5% 1% 5%;
+    background: linear-gradient( to left, #000000 0%, #302F34 100%);
+    color: #fff;
+    text-align: left;
+    width: 100vw;
+    margin: -5% 0 0 0;
+    position: relative;
+    z-index: 1;
+
+}
+
+footer div {
+    /* flex: 1 1 10vw; Ensures each section takes up at least 300px but can grow */
+    padding: 2% 3% 0 3%;
+    box-sizing: border-box;
+}
+
+footer p{
+
+    font-size: 1.5vw;
+}
+
+
+
+.ftr-1{
+
+    width: 60%;
+
+}
+
+.ftr-2{
+
+    width: 20%;
+
+}
+
+
+.ftr-logo {
+    width: 15vw ;
+    margin-bottom: 3%;
+}
+
+.ftr-icn h4{
+    font-size: 1.3vw;
+    margin: 2vw 1%;
+}
+
+.ftr-icn a{
+
+    color: #8885fc;
+
+}
+
+
+
+
+footer label{
+
+    font-size: 2vw;
+    font-weight: 900;
+    text-align: center;
+    padding: 1% auto;
+    /* border-left: 0.1vw solid white; */
+
+}
+
+footer ul {
+    list-style: none;
+    padding: 5% 0%;
+  
+}
+
+footer ul li {
+    font-size: 1.5vw;
+    margin: 1vw 0;
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li:hover {
+
+    /* transform: translateY(-0.5vw); */
+    scale: 1.03;
+    transition: all 0.6s;
+}
+
+footer li a:hover{
+    color: #8885fc;
+
+}
+
+.ftr-3{
+
+    width: 20%;
+
+}
+
+.ftr-3 div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20%;
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto;
+    padding: 5%;
+    border-radius: 1vw;
+
+    background: linear-gradient(to bottom, #FDC3FB 0% , #71C4EE 44%, #8D76FF 100%);
+
+
+}
+
+
+.ftr-3 img{
+
+    width: 3vw;
+
+}
+
+.ftr-3 img:hover{
+
+    scale: 1.1;
+
+}
+
+
+
+/* ..................................... SECTION 0 ..............................  */
+
+.posabs{
+
+    position: absolute;
+    overflow: hidden;
+
+
+}
+
+
+.pasicn {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 1vw;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+    padding: 2% 1%;
+    border-radius: 1vw;
+    width: 5vw;
+    top: 5%;
+    right: 0%;
+
+    background: linear-gradient(to bottom, #FDC3FB 0% , #71C4EE 44%, #8D76FF 100%);
+
+
+}
+
+
+
+.pasicn img{
+
+    width: 2vw;
+
+}
+
+.pasicn img:hover{
+
+    scale: 1.1;
+
+}
+
+
+.ycrcle{
+
+    top: 23%;
+    width: 100vw;
+    z-index: -1;
+
+}
+
+.clod1{
+
+    width: 20vw;
+    top: 33%;
+    right: 0%;
+    z-index: 9;
+
+    animation: fadeIn 2s ease-in-out infinite;
+
+}
+
+
+.clod2{
+
+    width: 20vw;
+    top: 60%;
+    right: 0%;
+    z-index: 9;
+    animation: fadeIn 2s ease-in-out infinite;
+
+
+}
+
+
+.clod3{
+
+    width: 30vw;
+    top: 40%;
+    left: 0%;
+    z-index: 9;
+    animation: fadeIn 2s ease-in-out infinite;
+
+
+}
+
+.clod4{
+
+    width: 30vw;
+    top: 76%;
+    right: 0%;
+    z-index: 11;
+    animation: fadeIn 2s ease-in-out infinite;
+
+
+}
+
+
+.bplnt{
+
+    width: 80vw;
+    top: 60%;
+    left: -30%;
+    z-index: 9;
+    animation: spining 18s ease-in infinite;
+
+
+}
+
+
+
+.ymoon{
+
+    width: 20vw;
+    top: 77%;
+    right: 5%;
+    z-index: 9;
+    animation: spining 8s ease-in infinite;
+
+}
+
+.bmoon{
+
+    width: 20vw;
+    top: 87%;
+    right: 13%;
+    z-index: -1;  
+    animation: spining 8s ease-in infinite;
+
+
+}
+
+
+
+.line1{
+
+    width: 30vw;
+    top: 49%;
+    left: 10%;
+    z-index: 2;
+    animation: zooom 2s ease-in-out infinite;
+
+
+}
+
+
+
+.line2{
+
+    width: 30vw;
+    top: 49%;
+    right: 10%;
+    z-index: 2;
+    animation: zooom 2s ease-in-out infinite;
+
+
+}
+
+.line3{
+
+    width: 30vw;
+    top: 53%;
+    left: 10%;
+    z-index: 2;
+    animation: zooom 2s ease-in-out infinite;
+
+
+}
+
+.line4{
+
+    width: 30vw;
+    top: 53%;
+    right: 10%;
+    z-index: 2;
+    animation: zooom 2s ease-in-out infinite;
+
+
+}
+
+
+
+.tp{
+
+    font-size: 2vw;
+    color: white;
+
+}
+
+.tp1{
+
+    top: 48%;
+    left: 10%;
+
+}
+
+.tp2{
+
+    top: 48%;
+    right: 10%;
+
+}
+
+.tp3{
+
+    top: 52%;
+    left: 10%;
+
+}
+
+
+.tp4{
+
+    top: 52%;
+    right: 10%;
+
+}
+
+
+
+.dp{
+
+    font-size: 2vw;
+    color: #FDC3FB;
+
+}
+
+
+.dp1{
+
+    top: 49.3%;
+    left: 10%;
+
+}
+
+.dp2{
+
+    top: 49.3%;
+    right: 10%;
+
+}
+
+.dp3{
+
+    top: 53.3%;
+    left: 10%;
+
+}
+
+
+.dp4{
+
+    top: 53.3%;
+    right: 10%;
+
+}
+
+
+
+
